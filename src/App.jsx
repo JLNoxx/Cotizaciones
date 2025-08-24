@@ -2,14 +2,6 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { exportNodeToPdf } from './utils/exportToPdf.js'
 import './styles.css'
 
-/*
-import pdfMake from "pdfmake/build/pdfmake";
-import pdfFonts from "pdfmake/build/vfs_fonts";
-pdfMake.vfs = pdfFonts.pdfMake.vfs;
-
-*/
-
-
 const IGV_RATE = 0.18 // 18%
 
 // Datos fijos de la empresa
@@ -243,7 +235,7 @@ export default function App() {
 
       {/* === Tabla de productos dinámica === */}
       <section className="panel">
-        <h2>wazaa</h2>
+        <h2>PRODUCTOS</h2>
 
         {loading && <p>Cargando…</p>}
         {error && <p className="error">{error}</p>}
