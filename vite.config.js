@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/cotizador/', // 👈 nombre exacto de tu repo en GitHub
+  base: '/Cotizaciones/', // 👈 nombre exacto de tu repo en GitHub
 })
