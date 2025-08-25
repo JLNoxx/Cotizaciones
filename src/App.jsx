@@ -291,10 +291,10 @@ export default function App() {
       {/*   CABEZERA / LOGO / COTIZACION / FECHA  
       <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" style={{ width: '140px', height: 'auto' }} />   */}
 
-      {/*   INICIO DEL PDF  */}
+      {/*   INICIO DEL PDF  
       <button onClick={() => setPreviewMode(!previewMode)}>
         {previewMode ? "Ocultar estructura" : "Ver estructura"}
-      </button>
+      </button>*/}
 
       <section
         className="quote"
