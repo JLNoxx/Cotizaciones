@@ -303,7 +303,7 @@ export default function App() {
       >
         <hr className="rule" />
         <div class="contenido-derecha">
-          <div className="texto-cotizacion">COTIZACIÓN {form.numCotizacion}</div>
+          <div className="texto-cotizacion">COTIZACIÓN </div>
           <div className="fecha">Fecha: {new Date().toLocaleDateString()}</div>
         </div>
 
@@ -316,17 +316,9 @@ export default function App() {
             <div class="fila-cliente">
               <div class="celda contenido"><b>Empresa:</b></div>
               <div class="celda valores"> {EMPRESA_INFO.nombre} </div>
-            </div>
-            <div class="fila-cliente">
-              <div class="celda contenido"><b>Sucursal:</b></div>
-              <div class="celda valores">  {EMPRESA_INFO.sucursal}  </div>
-            </div>
-            <div class="fila-cliente">
               <div class="celda contenido"><b>Dirección:</b></div>
-              <div class="celda valores"> {EMPRESA_INFO.direccion}   </div>
-              <div class="celda contenido"></div>
-              <div class="celda valores"></div>
-            </div>
+              <div class="celda valores"> {EMPRESA_INFO.direccion} </div>
+            </div>            
           </div>
         </section>
         <div class="espacio-editable"></div>
