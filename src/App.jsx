@@ -8,7 +8,7 @@ const IGV_RATE = 0.18 // 18%
 const EMPRESA_INFO = {
   nombre: "Dylan S.A.C.",
   sucursal: "Comas",
-  direccion: "Av. Universitaria 1234, Comas, Lima",
+  direccion: "Av. Perú 2327 - San Martin de Porres",
 }
 
 // Cuentas corrientes fijas
@@ -22,7 +22,7 @@ const CTAS_CORRIENTES =
 const VENDEDOR_INFO = {
   nombre: "LUIS VELASQUEZ QUISPE",
   telefono: "+51 933866267",
-  correo: "lvelasquez@gildemeister.pe"
+  correo: "RepuestosDyD07@gmail.com"
 }
 
 // 🔹 Generador de números de cotización (controlado en localStorage)
